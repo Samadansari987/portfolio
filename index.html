@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><b><span>A</span>lsamad.</div></b>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h2>Hi, I'm <span>Alsamad Ansari</span> <br> from Uttarakhand</h2>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user-new.jpg" alt="" style="background-size: cover;">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About me</h2>
+                    <p>Diligent Electronics and Communication
+                        Engineering student with a keen focus on
+                        details and proficiency in JavaScript , HTML
+                        & CSS programming. Actively seeking
+                        opportunities to enhance efficiency and
+                        skills through continuous learning.
+                        Possessing practical expertise and
+                        versatility in electronics, including
+                        significant experience in troubleshooting
+                        processes. Recognized for a resolute passion
+                        for ongoing education initiatives.
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span style="font-weight: 700">HTML</span></li>
+                            <li><span style="font-weight: 700">CSS</span></li>
+                            <li><span style="font-weight: 700">javascript</span></li>
+                            <li><span style="font-weight: 700">Git / Github</span></li>
+                            <li><span style="font-weight: 700">Terminal bash
+                            </span></li>
+                            <li><span style="font-weight: 700">Communication</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span style="font-weight: 700">15th July 2022 - 15th Aug 2022</span><br><br>Internship at Digital training labs</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span style="font-weight: 700">2019 - 2023</span><br><br>B.tech from Collage of Techology , G.B.P.U A&T</li>
+                            <li><span style="font-weight: 700">2017 - 2018</span><br><br>12th from K.V.M Public School</li>
+                            <li><span style="font-weight: 700">2015 - 2016</span><br><br>10th from K.V.M Public School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="services" id="services">
+        <div class="container">
+            <h2 class="sub-title">Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>Building interactive and responsive websites for all devices (desktop, mobile, tablet) using HTML, CSS, and JavaScript.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Collaborating with designers and product managers to translate design mockups into functional prototypes.
+                        Improving the look and feel of existing websites by enhancing UI elements and layouts.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Version control systems (Git)</h2>
+                    <p>Efficient management of code changes and collaboration.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Amazon website's clone</h3>
+                        <p>Developed an Amazon website clone using HTML and CSS. This project highlights my ability
+                            to replicate complex user interfaces and design visually appealing web pages.
+
+                            </p>
+                        <a href="https://samadansari987.github.io/Amazon-website-s-Clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Spotify website's clone</h3>
+                        <p>Developed an Spotify website clone using HTML and CSS, showcasing
+                            my expertise in frontend web development.
+                            serving as a strong addition to my skillset in HTML and CSS.
+                            </p>
+                        <a href="https://samadansari987.github.io/spotify-website-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Classic Simon game</h3>
+                        <p>I successfully created a responsive web application that allows users to play a
+                            classic Simon game. Additionally, I employed HTML and CSS to create a
+                            clean, attractive, and user-friendly interface.
+                            </p>
+                        <a href="https://samadansari987.github.io/classic-simon-game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn">see more</button>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact me</h2>
+                    <p><i class="fa-solid fa-paper-plane"></i>alsamadansari999@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8077118523</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" class="btn btn2" download >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span class="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"></div>
+
+
+
+    <script>
+        let tablinks=document.getElementsByClassName("tab-links");
+        let tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+
+
+    <script>
+    let sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+
+
+
+    </script>
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkShHXgOh1K3hxc9Bq-oqAhNiJ-Rixc8EfshVNp3GiMFr25p797c4y82taPCZmMC0QJg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementsByClassName("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML="";
+                },5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
